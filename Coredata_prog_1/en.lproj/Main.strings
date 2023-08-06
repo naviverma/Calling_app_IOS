@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "Enter your City"; ObjectID = "7M6-ey-g5z"; */
+"7M6-ey-g5z.placeholder" = "Enter your City";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9ar-oc-WPg"; */
+"9ar-oc-WPg.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Enter your Address"; ObjectID = "9dK-9j-mZs"; */
+"9dK-9j-mZs.placeholder" = "Enter your Address";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9hh-y7-TXy"; */
+"9hh-y7-TXy.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AwS-td-wlQ"; */
+"AwS-td-wlQ.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Enter your Name"; ObjectID = "Sgq-GK-bkn"; */
+"Sgq-GK-bkn.placeholder" = "Enter your Name";
+
+/* Class = "UIButton"; configuration.title = "Save"; ObjectID = "frN-Cr-Uhp"; */
+"frN-Cr-Uhp.configuration.title" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "frN-Cr-Uhp"; */
+"frN-Cr-Uhp.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Enter your Mobile"; ObjectID = "oob-MK-0hF"; */
+"oob-MK-0hF.placeholder" = "Enter your Mobile";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xeC-i6-7zL"; */
+"xeC-i6-7zL.text" = "Label";

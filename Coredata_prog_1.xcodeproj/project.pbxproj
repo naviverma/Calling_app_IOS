@@ -14,6 +14,17 @@
 		5D2379B42A7824E800C1FA1D /* Coredata_prog_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D2379B22A7824E800C1FA1D /* Coredata_prog_1.xcdatamodeld */; };
 		5D2379B62A7824E900C1FA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2379B52A7824E900C1FA1D /* Assets.xcassets */; };
 		5D2379B92A7824E900C1FA1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2379B72A7824E900C1FA1D /* LaunchScreen.storyboard */; };
+		5D2379CA2A782FAD00C1FA1D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2379C92A782FAD00C1FA1D /* CoreData.framework */; };
+		5D2379CC2A78346400C1FA1D /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2379CB2A78346400C1FA1D /* DataBaseHelper.swift */; };
+		5D2379CE2A786B6400C1FA1D /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2379CD2A786B6400C1FA1D /* DataViewController.swift */; };
+		5D2379D02A786CA400C1FA1D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2379CF2A786CA400C1FA1D /* TableViewCell.swift */; };
+		5D2379E42A7A40B700C1FA1D /* Students+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2379E22A7A40B700C1FA1D /* Students+CoreDataClass.swift */; };
+		5D2379E72A7D77F200C1FA1D /* Students+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2379E62A7D77F200C1FA1D /* Students+CoreDataProperties.swift */; };
+		5D2379E92A7EC06800C1FA1D /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2379E82A7EC06800C1FA1D /* contact.png */; };
+		5D2379EB2A7EC0F900C1FA1D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2379EA2A7EC0F900C1FA1D /* user.png */; };
+		5D2379ED2A7EC60600C1FA1D /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2379EC2A7EC60500C1FA1D /* Logo.png */; };
+		5D9563242A7F5B70008823ED /* telephone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9563232A7F5B70008823ED /* telephone.png */; };
+		5D9563262A7F5DEA008823ED /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9563252A7F5DEA008823ED /* menu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		5D2379B52A7824E900C1FA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2379B82A7824E900C1FA1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D2379BA2A7824E900C1FA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2379C92A782FAD00C1FA1D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5D2379CB2A78346400C1FA1D /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		5D2379CD2A786B6400C1FA1D /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		5D2379CF2A786CA400C1FA1D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5D2379E22A7A40B700C1FA1D /* Students+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Students+CoreDataClass.swift"; path = "../Students+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5D2379E62A7D77F200C1FA1D /* Students+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Students+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5D2379E82A7EC06800C1FA1D /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		5D2379EA2A7EC0F900C1FA1D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		5D2379EC2A7EC60500C1FA1D /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		5D9563232A7F5B70008823ED /* telephone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telephone.png; sourceTree = "<group>"; };
+		5D9563252A7F5DEA008823ED /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2379CA2A782FAD00C1FA1D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,7 @@
 			children = (
 				5D2379A82A7824E800C1FA1D /* Coredata_prog_1 */,
 				5D2379A72A7824E800C1FA1D /* Products */,
+				5D2379C82A782FAD00C1FA1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +84,32 @@
 			children = (
 				5D2379A92A7824E800C1FA1D /* AppDelegate.swift */,
 				5D2379AB2A7824E800C1FA1D /* SceneDelegate.swift */,
+				5D2379E22A7A40B700C1FA1D /* Students+CoreDataClass.swift */,
+				5D2379E62A7D77F200C1FA1D /* Students+CoreDataProperties.swift */,
 				5D2379AD2A7824E800C1FA1D /* ViewController.swift */,
+				5D2379CB2A78346400C1FA1D /* DataBaseHelper.swift */,
 				5D2379AF2A7824E800C1FA1D /* Main.storyboard */,
+				5D2379CF2A786CA400C1FA1D /* TableViewCell.swift */,
+				5D2379CD2A786B6400C1FA1D /* DataViewController.swift */,
 				5D2379B52A7824E900C1FA1D /* Assets.xcassets */,
+				5D2379E82A7EC06800C1FA1D /* contact.png */,
+				5D2379EC2A7EC60500C1FA1D /* Logo.png */,
+				5D9563252A7F5DEA008823ED /* menu.png */,
+				5D2379EA2A7EC0F900C1FA1D /* user.png */,
+				5D9563232A7F5B70008823ED /* telephone.png */,
 				5D2379B72A7824E900C1FA1D /* LaunchScreen.storyboard */,
 				5D2379BA2A7824E900C1FA1D /* Info.plist */,
 				5D2379B22A7824E800C1FA1D /* Coredata_prog_1.xcdatamodeld */,
 			);
 			path = Coredata_prog_1;
+			sourceTree = "<group>";
+		};
+		5D2379C82A782FAD00C1FA1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2379C92A782FAD00C1FA1D /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +170,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9563262A7F5DEA008823ED /* menu.png in Resources */,
+				5D9563242A7F5B70008823ED /* telephone.png in Resources */,
 				5D2379B92A7824E900C1FA1D /* LaunchScreen.storyboard in Resources */,
+				5D2379ED2A7EC60600C1FA1D /* Logo.png in Resources */,
+				5D2379EB2A7EC0F900C1FA1D /* user.png in Resources */,
 				5D2379B62A7824E900C1FA1D /* Assets.xcassets in Resources */,
+				5D2379E92A7EC06800C1FA1D /* contact.png in Resources */,
 				5D2379B12A7824E800C1FA1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2379CC2A78346400C1FA1D /* DataBaseHelper.swift in Sources */,
 				5D2379AE2A7824E800C1FA1D /* ViewController.swift in Sources */,
 				5D2379AA2A7824E800C1FA1D /* AppDelegate.swift in Sources */,
+				5D2379D02A786CA400C1FA1D /* TableViewCell.swift in Sources */,
+				5D2379CE2A786B6400C1FA1D /* DataViewController.swift in Sources */,
+				5D2379E42A7A40B700C1FA1D /* Students+CoreDataClass.swift in Sources */,
 				5D2379B42A7824E800C1FA1D /* Coredata_prog_1.xcdatamodeld in Sources */,
 				5D2379AC2A7824E800C1FA1D /* SceneDelegate.swift in Sources */,
+				5D2379E72A7D77F200C1FA1D /* Students+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +346,7 @@
 				DEVELOPMENT_TEAM = SJBBCP247C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Coredata_prog_1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Call;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +375,7 @@
 				DEVELOPMENT_TEAM = SJBBCP247C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Coredata_prog_1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Call;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
