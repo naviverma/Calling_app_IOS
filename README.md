@@ -62,3 +62,12 @@ pod install
 ### Open the workspace
 bash
 open YourProjectName.xcworkspace
+
+<p align="center">
+  <img src="https://github.com/naviverma/Calling_app_IOS/blob/main/WhatsApp%20Image%202023-09-14%20at%2017.27.20.jpeg" alt="Image 1" width="150" style="margin-right: 10px;">
+  <img src="https://github.com/naviverma/Calling_app_IOS/blob/main/WhatsApp%20Image%202023-09-14%20at%2017.27.29.jpeg" alt="Image 2" width="150" style="margin-right: 10px;">
+  <img src="https://github.com/naviverma/Calling_app_IOS/blob/main/WhatsApp%20Image%202023-09-14%20at%2017.27.42.jpeg" alt="Image 3" width="150" style="margin-right: 10px;">
+  <img src="https://github.com/naviverma/Calling_app_IOS/blob/main/WhatsApp%20Image%202023-09-14%20at%2017.27.50.jpeg" alt="Image 4" width="150" style="margin-right: 10px;">
+  <img src="https://github.com/naviverma/Calling_app_IOS/blob/main/WhatsApp%20Image%202023-09-14%20at%2017.27.58.jpeg" alt="Image 5" width="150">
+</p>
+
